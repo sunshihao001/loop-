@@ -1,0 +1,47 @@
+{
+  "name": "example-project",
+  "status": "draft",
+  "frameworks": [
+    "Hermes",
+    "Trellis",
+    "Decapod",
+    "Codex",
+    "ObsidianVault"
+  ],
+  "patterns": [
+    "Plan-Act-Verify",
+    "State Outside Context",
+    "Decapod Governance Loop",
+    "Learning Loop"
+  ],
+  "design_axes": {
+    "topology": "single|multi",
+    "coordination": "orchestration|cooperation",
+    "session_span": "single-session|multi-session",
+    "control_loop": "Plan-Execute",
+    "autonomy": "approval-required",
+    "execution_isolation": "worktree",
+    "memory": "long-term-file",
+    "verification": "computational+readback",
+    "compaction": "sliding-window",
+    "tool_type": "workflow+verify"
+  },
+  "source_of_truth": {
+    "knowledge": "Obsidian path",
+    "tasks": "Trellis task path",
+    "code": "Git repository URL"
+  },
+  "verification": {
+    "minimum": [
+      "read-back",
+      "script/test output",
+      "git diff review"
+    ],
+    "proof_gate": "required when code or external side effects are involved"
+  },
+  "persistence_sinks": [
+    "Obsidian hot/log",
+    "Trellis task files",
+    "Git commit"
+  ]
+}

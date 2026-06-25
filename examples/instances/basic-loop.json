@@ -1,0 +1,44 @@
+{
+  "name": "basic-loop-control-plane",
+  "status": "draft",
+  "frameworks": [
+    "Hermes",
+    "ObsidianVault",
+    "GitHub"
+  ],
+  "patterns": [
+    "Plan-Act-Verify",
+    "State Outside Context",
+    "Learning Loop"
+  ],
+  "design_axes": {
+    "topology": "single",
+    "coordination": "orchestration",
+    "session_span": "multi-session",
+    "control_loop": "Plan-Execute",
+    "autonomy": "approval-required",
+    "execution_isolation": "none-for-docs; worktree-for-code",
+    "memory": "long-term-file",
+    "verification": "computational+readback",
+    "compaction": "sliding-window",
+    "tool_type": "workflow+verify"
+  },
+  "source_of_truth": {
+    "knowledge": "/root/ObsidianVault/20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md",
+    "tasks": "future Trellis task path",
+    "code": "https://github.com/sunshihao001/loop循环项目"
+  },
+  "verification": {
+    "minimum": [
+      "python3 scripts/verify.py",
+      "git status --short",
+      "GitHub repository visible"
+    ],
+    "proof_gate": "not required for initial docs-only bootstrap"
+  },
+  "persistence_sinks": [
+    "/root/ObsidianVault/hot.md",
+    "/root/ObsidianVault/20_Notes/log.md",
+    "GitHub commit"
+  ]
+}
