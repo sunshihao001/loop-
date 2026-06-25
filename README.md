@@ -56,6 +56,7 @@ python3 scripts/verify.py
 - 关键知识库协议：`20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md`。
 - 关键验证实践：`/root/workflow-integration-demo/docs/integrated-workflow-protocol.md`。
 - 版本：`v0.1.0-draft`。
+- GitHub 仓库名：`loop-`（GitHub/gh 对中文仓库名做了 ASCII 兼容处理；本地项目目录仍为 `/root/loop循环项目`）。
 
 ## AI 维护原则
 
