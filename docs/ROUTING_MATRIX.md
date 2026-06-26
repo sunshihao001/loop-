@@ -32,6 +32,7 @@ Intent Type → Framework → Pattern → Instance → Verification → Persiste
 | “这个项目哪些工具没用起来” | framework-activation | Hermes + loop repo + Obsidian | Framework Activation + Learning Loop | legacy-project-activation | 不一定 | activation map / cards / runs | verify.py + GitHub push |
 | “研究工具怎么排顺序” / “什么时候该升级验证” | research-protocol-governance | Hermes + loop repo + Obsidian | Research Escalation + Learning Loop | research-tool-routing | 不一定 | protocol doc / routing update | verify.py + source links |
 | “我只有一个模糊概念，AI 该怎么帮我判断研究工具” / “哪些研究工具其实还没真正用起来” | fuzzy-research-entry-audit | Hermes + loop repo + Obsidian + Stage 0 routing | Fuzzy-Input Audit + Learning Loop | fuzzy-input-research-routing | 不一定 | audit doc / activation-state table | verify.py + source links + persistence |
+| “今天新得到的工作流修正要不要立刻应用” / “不要只存档，要现在生效” | runtime-activation | Hermes + loop repo + Obsidian | Runtime Immediate Activation + Learning Loop | runtime-immediate-activation | 不一定 | principle doc / real-run sample | verify.py + persistence |
 
 ---
 

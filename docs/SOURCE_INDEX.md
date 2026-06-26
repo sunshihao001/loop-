@@ -34,7 +34,7 @@
 | `/root/ObsidianVault/20_Notes/研究工具工作流化与模糊表达路由审计.md` | 审计哪些研究工具在模糊自然语言入口下已真正工作流化 |
 
 ## 维护原则
-
+## 维护原则
 
 当源资料更新时，本仓库不自动复制全部内容，而是：
 
@@ -42,3 +42,10 @@
 2. 在本文件补充来源；
 3. 运行 `python3 scripts/verify.py`；
 4. Git commit 记录变更原因。
+
+## 当前控制面新增来源
+
+| 来源 | 作用 |
+|---|---|
+| `/root/ObsidianVault/20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md` | 主协议已新增“运行时立即生效原则” |
+| `/root/ObsidianVault/20_Notes/研究工具工作流化与模糊表达路由审计.md` | 为模糊输入研究路由与即时生效原则提供来源真源 |
