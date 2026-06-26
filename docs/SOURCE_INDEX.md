@@ -18,6 +18,7 @@
 | `/root/workflow-integration-demo/docs/integrated-workflow-protocol.md` | repo-harness + Decapod 分层互补协议 |
 | `/root/Trellis/.trellis/tasks/06-25-repo-harness-decapod-integration/` | 端到端集成验证任务包 |
 | `/root/AGENTS.md` | VPS 目录与迁移偏好、当前工作流主协议 |
+| `/root/ObsidianVault/20_Notes/已安装项目工作流化问题.md` | 旧项目已安装但未工作流化的根因分析 |
 
 ## 维护原则
 
