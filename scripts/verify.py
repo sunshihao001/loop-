@@ -20,8 +20,11 @@ REQUIRED_FILES = [
     "docs/PERSISTENCE.md",
     "docs/PATTERNS.md",
     "docs/SOURCE_INDEX.md",
+    "docs/LEGACY_PROJECT_ACTIVATION.md",
+    "docs/ROUTING_MATRIX.md",
     "templates/INSTANCE_TEMPLATE.json",
     "examples/instances/basic-loop.json",
+    "examples/instances/legacy-project-activation.json",
 ]
 
 REQUIRED_README_TERMS = [

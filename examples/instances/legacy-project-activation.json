@@ -1,0 +1,92 @@
+{
+  "name": "legacy-project-activation",
+  "status": "active-draft",
+  "purpose": "Use the new Framework/Pattern/Instance structure to activate previously installed but underused workflow projects.",
+  "frameworks": [
+    "Hermes",
+    "ObsidianVault",
+    "GitHub loop repo",
+    "Trellis",
+    "Decapod",
+    "Codex",
+    "dbskill",
+    "Science Superpowers",
+    "repo-harness"
+  ],
+  "patterns": [
+    "Plan-Act-Verify",
+    "State Outside Context",
+    "Framework Activation",
+    "Learning Loop",
+    "Human Approval Checkpoint",
+    "Clean-Context Continuation"
+  ],
+  "design_axes": {
+    "topology": "single-agent first; multi-agent later",
+    "coordination": "orchestration by Hermes",
+    "session_span": "multi-session",
+    "control_loop": "Plan-Execute-Verify-Learn",
+    "autonomy": "approval-required for side effects",
+    "execution_isolation": "docs-only initially; Decapod worktree for code changes",
+    "memory": "long-term-file via GitHub docs + Obsidian hot/log",
+    "verification": "computational + read-back + git state",
+    "compaction": "sliding-window from ROUTING_MATRIX + Framework Cards",
+    "tool_type": "workflow + verify"
+  },
+  "source_of_truth": {
+    "control_plane": "/root/loop循环项目",
+    "github": "https://github.com/sunshihao001/loop-",
+    "knowledge": "/root/ObsidianVault/20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md",
+    "activation_doc": "/root/loop循环项目/docs/LEGACY_PROJECT_ACTIVATION.md",
+    "routing_matrix": "/root/loop循环项目/docs/ROUTING_MATRIX.md"
+  },
+  "activation_batches": [
+    {
+      "id": "P1",
+      "name": "Routing Matrix",
+      "status": "created",
+      "path": "docs/ROUTING_MATRIX.md"
+    },
+    {
+      "id": "P2",
+      "name": "Framework Cards",
+      "status": "created",
+      "path": "docs/frameworks/"
+    },
+    {
+      "id": "P3",
+      "name": "Instance Registry",
+      "status": "created",
+      "path": "examples/instances/legacy-project-activation.json"
+    },
+    {
+      "id": "P4",
+      "name": "Verified real run",
+      "status": "next",
+      "path": "TBD Trellis task"
+    },
+    {
+      "id": "P5",
+      "name": "Decapod + Codex integration",
+      "status": "later",
+      "path": "TBD"
+    }
+  ],
+  "verification": {
+    "minimum": [
+      "python3 scripts/verify.py",
+      "git status --short --branch",
+      "read-back of routing matrix and cards"
+    ],
+    "done_when": [
+      "Each core framework has a card",
+      "Routing matrix maps natural language to framework/pattern/instance",
+      "At least one real project run uses the matrix and records evidence"
+    ]
+  },
+  "persistence_sinks": [
+    "GitHub commit",
+    "/root/ObsidianVault/hot.md",
+    "/root/ObsidianVault/20_Notes/log.md"
+  ]
+}
