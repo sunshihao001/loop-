@@ -19,8 +19,18 @@
     "Framework Activation",
     "Learning Loop",
     "Human Approval Checkpoint",
-    "Clean-Context Continuation"
+    "Clean-Context Continuation",
+    "Stop Condition / Budget Guard",
+    "Build Order (Prove → Harden → Automate)",
+    "Loop Worthiness Check",
+    "Skill Lifecycle"
   ],
+  "stop_condition": {
+    "max_iterations": 8,
+    "token_budget": "TBD per task",
+    "success_criteria": "python3 scripts/verify.py passes AND read-back confirms expected changes",
+    "on_failure": "report failure reason, do not silently continue"
+  },
   "design_axes": {
     "topology": "single-agent first; multi-agent later",
     "coordination": "orchestration by Hermes",

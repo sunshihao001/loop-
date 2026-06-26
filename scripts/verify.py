@@ -19,6 +19,7 @@ REQUIRED_FILES = [
     "docs/GOVERNANCE.md",
     "docs/PERSISTENCE.md",
     "docs/PATTERNS.md",
+    "docs/LOOP_WORTHINESS_CHECKLIST.md",
     "docs/SOURCE_INDEX.md",
     "docs/LEGACY_PROJECT_ACTIVATION.md",
     "docs/ROUTING_MATRIX.md",
