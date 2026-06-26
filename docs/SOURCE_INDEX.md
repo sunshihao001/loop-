@@ -20,7 +20,19 @@
 | `/root/AGENTS.md` | VPS 目录与迁移偏好、当前工作流主协议 |
 | `/root/ObsidianVault/20_Notes/已安装项目工作流化问题.md` | 旧项目已安装但未工作流化的根因分析 |
 
+## 多智能体辩论研究来源
+
+| 来源 | 作用 |
+|---|---|
+| `/root/ObsidianVault/20_Notes/多智能体结构化辩论协议_v1.md` | 多智能体结构化辩论在文章研究中的协议草案 |
+| `/root/ObsidianVault/20_Notes/多智能体辩论实验_Loop_Engineering三方综合.md` | 三个隔离子代理对同一文章的综合结果 |
+| `/root/ObsidianVault/20_Notes/AddyOsmani_Loop_Engineering_实践工程师视角分析.md` | 实践工程师视角：可用性与成本判断 |
+| `/root/ObsidianVault/20_Notes/2026-06-26_Loop_Engineering_怀疑论者批评.md` | 怀疑论者视角：证据、逻辑和利益冲突 |
+| `/root/ObsidianVault/20_Notes/AddyOsmani_Loop_Engineering_学术理论基础分析.md` | 学术研究者视角：理论先例、验证状态、29条参考文献 |
+| `/root/ObsidianVault/20_Notes/异质模型辩论实验_AddyOsmani_提示词包.md` | 给 ChatGPT / Gemini / Claude 的异质模型补充提示词 |
+
 ## 维护原则
+
 
 当源资料更新时，本仓库不自动复制全部内容，而是：
 

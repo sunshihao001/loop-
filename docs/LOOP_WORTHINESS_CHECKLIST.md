@@ -21,11 +21,13 @@
 
 ## 补充检查
 
-### 成本意识
+### 成本意识（Economic Gate）
 
 - [ ] 预估每轮 token / cost 消耗？
 - [ ] 设定了 max iterations / budget cap？
 - [ ] 定义了 accepted change rate 的最低门槛（建议 ≥ 50%）？
+- [ ] 当前使用者的 token 预算是否真的承受得起重复试错？
+- [ ] 真正的瓶颈是“实现速度”还是“审查能力”？如果审查已是瓶颈，loop 可能只会让队列更长。
 
 ### 建设顺序
 
