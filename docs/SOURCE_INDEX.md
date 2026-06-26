@@ -30,6 +30,7 @@
 | `/root/ObsidianVault/20_Notes/2026-06-26_Loop_Engineering_怀疑论者批评.md` | 怀疑论者视角：证据、逻辑和利益冲突 |
 | `/root/ObsidianVault/20_Notes/AddyOsmani_Loop_Engineering_学术理论基础分析.md` | 学术研究者视角：理论先例、验证状态、29条参考文献 |
 | `/root/ObsidianVault/20_Notes/异质模型辩论实验_AddyOsmani_提示词包.md` | 给 ChatGPT / Gemini / Claude 的异质模型补充提示词 |
+| `/root/ObsidianVault/20_Notes/研究工具路由协议.md` | 研究工具从问题澄清到真实试跑再到固化的正式知识真源 |
 
 ## 维护原则
 

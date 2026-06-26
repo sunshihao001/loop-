@@ -21,6 +21,7 @@ Intent Type → Framework → Pattern → Instance → Verification → Persiste
 | “查一下有没有现成方案” | reuse-review | Hermes + Obsidian + external search/agent-reach | Reuse-first Review | reuse-before-build | 不一定 | 现有方案对比 / 是否自建判断 | 来源可追溯 |
 | “让 GPT/Claude 批评一下” | external-review | Hermes + 外部 AI 协商层 + Obsidian | Planner/Evaluator Split | external-ai-review | 需要用户协助或授权 | 外部问题包 / 回收表 | 回收内容被筛选并沉淀 |
 | “多角度看看” / “找矛盾” | multi-perspective | Hermes + STORM + Obsidian | Multi-perspective Scan | storm-scan | 不一定 | 视角扫描 / 矛盾地图 | 至少有反例/风险项 |
+| “把研究工具顺序定下来” / “这个研究结论能不能升成默认规则” | research-routing | Hermes + Obsidian + delegate_task + external AI + Science Superpowers / grill-with-docs | Research Escalation | research-tool-routing | 不一定 | 路由协议 / 升级路径 / promotion 边界 | 有真实来源、升级条件与停止条件 |
 | “继续推进” / “接着上次” | continuation | Hermes + Obsidian hot/log + Trellis | Clean-Context Continuation | active-project | 不一定 | 当前状态 / 下一步动作 | 读 hot/log/task 后行动 |
 | “执行吧” | implementation | Hermes + Codex + Decapod + Trellis | Decapod Governance Loop + Plan-Act-Verify | implementation-task | 视副作用 | diff / 测试 / 实现说明 | tests/verify/validate |
 | “修 bug” | debugging | Hermes + Codex + Decapod | Systematic Debugging + Governance Loop | bugfix-task | 视副作用 | root cause / patch / test | 复现失败→修复→通过 |
@@ -29,6 +30,7 @@ Intent Type → Framework → Pattern → Instance → Verification → Persiste
 | “定时提醒/自动跑” | scheduled-loop | Hermes cron + Obsidian/Trellis | Loop Engineering + Human Approval | scheduled-loop | 需要 | cron job / prompt / output sink | cron run 或 dry-run |
 | “验证这个结论” | claim-verification | Hermes + Science Superpowers | Preregister → Verify | research-verification | 视影响 | verification plan / report | claim 前有证据 |
 | “这个项目哪些工具没用起来” | framework-activation | Hermes + loop repo + Obsidian | Framework Activation + Learning Loop | legacy-project-activation | 不一定 | activation map / cards / runs | verify.py + GitHub push |
+| “研究工具怎么排顺序” / “什么时候该升级验证” | research-protocol-governance | Hermes + loop repo + Obsidian | Research Escalation + Learning Loop | research-tool-routing | 不一定 | protocol doc / routing update | verify.py + source links |
 
 ---
 

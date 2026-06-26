@@ -1,0 +1,51 @@
+{
+  "name": "research-tool-routing",
+  "status": "active",
+  "frameworks": [
+    "Hermes",
+    "ObsidianVault",
+    "delegate_task",
+    "External AI Consultation",
+    "Science Superpowers",
+    "grill-with-docs"
+  ],
+  "patterns": [
+    "Plan-Act-Verify",
+    "State Outside Context",
+    "Multi-Agent Structured Debate",
+    "Learning Loop"
+  ],
+  "design_axes": {
+    "topology": "multi",
+    "coordination": "orchestration",
+    "session_span": "multi-session",
+    "control_loop": "Plan-Execute",
+    "autonomy": "approval-required",
+    "execution_isolation": "none",
+    "memory": "long-term-file",
+    "verification": "computational+readback",
+    "compaction": "sliding-window",
+    "tool_type": "workflow+verify"
+  },
+  "source_of_truth": {
+    "knowledge": "/root/ObsidianVault/20_Notes/研究工具路由协议.md",
+    "tasks": "docs/RESEARCH_TOOL_ROUTING_PROTOCOL.md",
+    "code": "https://github.com/sunshihao001/loop-"
+  },
+  "verification": {
+    "minimum": [
+      "read-back",
+      "source links",
+      "real-run evidence before repo-default promotion",
+      "git diff review"
+    ],
+    "proof_gate": "required before promoting any research conclusion into a default repo rule"
+  },
+  "persistence_sinks": [
+    "Obsidian hot/log",
+    "docs/RESEARCH_TOOL_ROUTING_PROTOCOL.md",
+    "docs/ROUTING_MATRIX.md",
+    "docs/SOURCE_INDEX.md",
+    "Git commit"
+  ]
+}
