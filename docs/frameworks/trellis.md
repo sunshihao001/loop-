@@ -2,7 +2,9 @@
 
 ## Role
 
-工程任务生命周期：PRD → design → implement → verify
+③ 协调层基础设施：工程任务生命周期管理（PRD → design → implement → verify）+ specs 持久化 + workspace 隔离 + skill routing
+
+**注意**：Trellis 不是 ⑦ 知识沉淀层工具。知识沉淀由 Obsidian 独立负责。Trellis 与 Hermes 并列在 ③ 协调层——Hermes 管意图/路由/授权，Trellis 管工程任务/规格/workspace。详见 `docs/PROTOCOL_CORRECTION_2026-06-27.md`。
 
 ## Trigger phrases
 

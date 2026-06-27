@@ -47,5 +47,8 @@
 
 | 来源 | 作用 |
 |---|---|
-| `/root/ObsidianVault/20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md` | 主协议已新增“运行时立即生效原则” |
+| `/root/ObsidianVault/20_Notes/AI_Agent工作流_Framework_Pattern_Instance三层协议.md` | 主协议已新增"运行时立即生效原则" |
+| `/root/loop循环项目/docs/PROJECT_ROADMAP_2026-06-27.md` | 项目路线地图：Phase 0 基础设施(完成) → Phase 1 Real-run验证 → Phase 2 方法论缺口 → Phase 3 通用学习闭环 |
+| `/root/ObsidianVault/20_Notes/AI Agent科研范式转变_x_Hermes工作流_第一轮综合研究.md` | PDF科研范式转变与Hermes工作流综合研究，识别5个协议缺口 |
+| `/root/ObsidianVault/20_Notes/Loop_Research_Intake_四篇横向综合.md` | 6篇循环文章横向综合，提取8个跨样本机制和候选Pattern |
 | `/root/ObsidianVault/20_Notes/研究工具工作流化与模糊表达路由审计.md` | 为模糊输入研究路由与即时生效原则提供来源真源 |
