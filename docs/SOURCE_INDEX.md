@@ -53,3 +53,4 @@
 | `/root/ObsidianVault/20_Notes/Loop_Research_Intake_四篇横向综合.md` | 6篇循环文章横向综合，提取8个跨样本机制和候选Pattern |
 | `/root/ObsidianVault/20_Notes/研究工具工作流化与模糊表达路由审计.md` | 为模糊输入研究路由与即时生效原则提供来源真源 |
 | `/root/loop循环项目/docs/MEME_DIRECTION_ADJUSTMENT_DESIGN.md` | meme 项目方向调整设计文档：参考 CryptoAgents + Aegis Flux，把 meme-repo 规则层装进多代理执行引擎 |
+| `/root/loop循环项目/docs/MEME_DIRECTION_SHIFT_DECISION.md` | 方向转变决策（Owner确认）：从单一FCZ策略Paper化 → 多Agent多策略AI判断推理系统。FCZ降为策略之一，不预设固定买卖路径 |
