@@ -52,3 +52,4 @@
 | `/root/ObsidianVault/20_Notes/AI Agent科研范式转变_x_Hermes工作流_第一轮综合研究.md` | PDF科研范式转变与Hermes工作流综合研究，识别5个协议缺口 |
 | `/root/ObsidianVault/20_Notes/Loop_Research_Intake_四篇横向综合.md` | 6篇循环文章横向综合，提取8个跨样本机制和候选Pattern |
 | `/root/ObsidianVault/20_Notes/研究工具工作流化与模糊表达路由审计.md` | 为模糊输入研究路由与即时生效原则提供来源真源 |
+| `/root/loop循环项目/docs/MEME_DIRECTION_ADJUSTMENT_DESIGN.md` | meme 项目方向调整设计文档：参考 CryptoAgents + Aegis Flux，把 meme-repo 规则层装进多代理执行引擎 |
